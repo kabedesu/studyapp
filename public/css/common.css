@@ -1,2 +1,4 @@
 @charset "utf-8";
-p {color: red;}
+.navbar-brand {
+    border:solid 1px red;
+}
