@@ -1,4 +1,27 @@
 @charset "utf-8";
-.navbar-brand {
-    border:solid 1px red;
+/* xs,sm以下のサイズ,共通部分 */ 
+ #title {
+     border: solid 1px red;
+ }
+
+/* sm : Extra Small Devices, Phones */ 
+@media only screen and (min-width : 576px) {
+ 
+}
+ 
+/* md : Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+ 
+}
+ 
+/* lg : Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+ 
+}
+ 
+/* xl : Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    #title {
+        border: solid 1px blue;
+    }
 }
