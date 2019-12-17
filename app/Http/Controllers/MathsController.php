@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class KokugosController extends Controller
+class MathsController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +13,7 @@ class KokugosController extends Controller
      */
     public function index()
     {
-        return view('kokugos.index');
+        return view('maths.index');
     }
 
     /**

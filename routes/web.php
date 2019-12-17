@@ -12,3 +12,6 @@
 */
 
 Route::get('/', 'StudiesController@index');
+Route::get('/maths/','MathsController@index');
+Route::get('/englishes/','EnglishesController@index');
+Route::get('/kokugos/','KokugosController@index');

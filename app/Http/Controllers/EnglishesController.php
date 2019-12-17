@@ -13,7 +13,7 @@ class EnglishesController extends Controller
      */
     public function index()
     {
-        //
+        return view('englishes.index');
     }
 
     /**
