@@ -12,6 +12,7 @@
 */
 
 Route::get('/', 'StudiesController@index');
-Route::get('/maths/','MathsController@index');
-Route::get('/englishes/','EnglishesController@index');
-Route::get('/kokugos/','KokugosController@index');
+Route::resource('studies','StudiesController');
+Route::resource('maths','MathsController');
+Route::resource('englishes','EnglishesController');
+Route::resource('kokugos','KokugosController');

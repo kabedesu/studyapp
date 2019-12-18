@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Englishes;
 
 class EnglishesController extends Controller
 {

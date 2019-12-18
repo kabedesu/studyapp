@@ -1,12 +1,12 @@
 @extends('layouts.common')
 @section('content')
-    <div id="sansu" class="subject border-bottom border-info">
-        <a href="{{ action('MathsController@index') }}"class="lead my-4 d-block text-sm-center">keisan</a>
+    <div class="subject border-bottom border-info">
+        {!! link_to_route('maths.index','to keisan page',[],['class' => 'lead my-4 d-block text-sm-center']) !!}
     </div>
-    <div id="kokugo" class="subject border-bottom border-info text-sm-center">
-        <a href="{{ action('KokugosController@index') }}" class="lead my-4 d-block">kokugo</a>
+    <div class="subject border-bottom border-info text-sm-center">
+        {!! link_to_route('kokugos.index','to kokugo page',[],['class' => 'lead my-4 d-block text-sm-center']) !!}
     </div>
-    <div id="english" class="subject border-bottom border-info text-sm-center">
-        <a href="{{ action('EnglishesController@index') }}" class="lead my-4 d-block">english</a>
+    <div class="subject border-bottom border-info text-sm-center">
+    {!! link_to_route('englishes.index','to english page',[],['class' => 'lead my-4 d-block text-sm-center']) !!}
     </div>
 @endsection
