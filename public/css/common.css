@@ -1,8 +1,12 @@
 @charset "utf-8";
 /* xs,sm以下のサイズ,共通部分 */ 
- #title {
-     border: solid 1px red;
- }
+ #title {}
+*:focus { outline:none !important; }
+*:focus { box-shadow: none !important;}
+h4 {
+    font-weight: normal;
+    border-left: solid 4px orange;
+}
 
 /* sm : Extra Small Devices, Phones */ 
 @media only screen and (min-width : 576px) {
@@ -21,7 +25,4 @@
  
 /* xl : Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
-    #title {
-        border: solid 1px blue;
-    }
 }
