@@ -1,28 +1,37 @@
 @charset "utf-8";
 /* xs,sm以下のサイズ,共通部分 */ 
- #title {}
-*:focus { outline:none !important; }
-*:focus { box-shadow: none !important;}
-h4 {
-    font-weight: normal;
-    border-left: solid 4px orange;
-}
+    #title {}
+    *:focus {
+        outline:none !important;
+        box-shadow: none !important;
+        z-index: 0 !important;
+    }
+    a:hover { text-decoration: none !important;}
+
+    /* btn関連 */
+    .btn:hover { z-index: 0 !important;}
+
+
+    h4 {
+        font-weight: normal;
+        border-left: solid 4px orange;
+    }
 
 /* sm : Extra Small Devices, Phones */ 
-@media only screen and (min-width : 576px) {
- 
-}
+    @media only screen and (min-width : 576px) {
+    
+    }
  
 /* md : Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
- 
-}
+    @media only screen and (min-width : 768px) {
+    
+    }
  
 /* lg : Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
- 
-}
+    @media only screen and (min-width : 992px) {
+    
+    }
  
 /* xl : Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-}
+    @media only screen and (min-width : 1200px) {
+    }
