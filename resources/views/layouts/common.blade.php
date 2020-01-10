@@ -33,7 +33,6 @@
         <div class="container">
             @yield('content')
         </div>
-        
         <footer>
             <hr>
             <div class="px-3">Copyright (C) 2019 StudyApp</div>

@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* xs,sm以下のサイズ,共通部分 */ 
+    .container {
+        max-width: 600px !important;
+    }
     #title {}
     *:focus {
         outline:none !important;
@@ -11,20 +14,19 @@
     /* btn関連 */
     .btn:hover { z-index: 0 !important;}
 
-
     h4 {
         font-weight: normal;
         border-left: solid 4px orange;
     }
+    /* そのた */
+    .mondai { font-size: 2em; }
 
-/* sm : Extra Small Devices, Phones */ 
+    /* sm : Extra Small Devices, Phones */ 
     @media only screen and (min-width : 576px) {
-    
     }
  
 /* md : Small Devices, Tablets */
     @media only screen and (min-width : 768px) {
-    
     }
  
 /* lg : Medium Devices, Desktops */
