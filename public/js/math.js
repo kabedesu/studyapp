@@ -13,14 +13,16 @@ $(function() {
         if(calc1_ans.innerText == 0) {
             calc1_ans.innerText = "";
         } 
-        calc1_ans.innerText += $(this).val(); 
+        if(Array.from(calc1_ans.innerText).length < 8) {
+            calc1_ans.innerText += $(this).val(); 
+        }
     });
 
     calc_enter.on('click',function(){
         calc1_ans.innerText = "pushed enter";
     });
     calc_reset.on('click',function() {
-        calc1_ans.innerText = "0";
+        calc1_ans.innerText = "";
     });
 });
 
