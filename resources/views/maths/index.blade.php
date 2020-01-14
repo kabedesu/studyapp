@@ -2,10 +2,10 @@
 @section('content')
     <div id="calc1" class="mb-4 border-bottom border-info">
         <div class="row no-gutters">
-            <h4 class="col-10 pl-2" data-toggle="collapse" data-target="#calc1_contentarea">tashizan</h4>
-            <div id="calc1_setting" class="col-2">
+            <h4 class="col-10 pl-2 mb-0" data-toggle="collapse" data-target="#calc1_contentarea">tashizan</h4>
+            <button id="calc1_setting" type="button" class="col-2 btn btn-info text-center rounded-0">
                 setting
-            </div>
+            </button>
         </div>
         
         <div id="calc1_contentarea" class="contentarea pb-4 collapse">
