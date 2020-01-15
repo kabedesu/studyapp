@@ -9,11 +9,11 @@
         </div>
         
         <div id="calc1_contentarea" class="contentarea pb-4 collapse">
-            <div class="mondai m-auto py-4 row no-gutters">
+            <div class="m-auto py-4 row no-gutters">
                 <div class="siki col-8 row no-gutters">
-                    <span class="num1 col-4 text-center">1</span>
+                    <span class="num col-4 text-center">1</span>
                     <span class="operator col-2 text-center">+</span> 
-                    <span class="num2 col-4 text-center">1</span>
+                    <span class="num col-4 text-center">1</span>
                     <span class="equal col-2 text-center">=</span>
                 </div>
                 <div class="ans text-center col-4">2</div>
@@ -24,7 +24,7 @@
     <div id="calc2" class="mb-4 border-bottom border-info">
         <h4 class="pl-2" data-toggle="collapse" data-target="#calc2_contentarea">hikizan</h4>
         <div id="calc2_contentarea" class="contentarea pb-4 collapse">    
-            <div class="mondai m-auto py-4 row no-gutters">
+            <div class="m-auto py-4 row no-gutters">
                 <div class="siki col-8 row no-gutters">
                     <span class="num1 col-4 text-center">1</span>
                     <span class="operator col-2 text-center">-</span> 
@@ -40,7 +40,7 @@
     <div id="calc3" class="mb-4 border-bottom border-info">
         <h4 class="pl-2" data-toggle="collapse" data-target="#calc3_contentarea">kuku</h4>
         <div id="calc3_contentarea" class="contentarea pb-4 collapse">
-            <div class="mondai py-4">
+            <div class="py-4">
                 <span class="siki">1 * 1 = </span><span class="ans"></span>
             </div>
         </div>

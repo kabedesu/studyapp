@@ -8,10 +8,10 @@
         @endfor   
     </div>
     @endfor
-    
-    <div class="btn-group d-flex btn-block">
-        <button id="calc_enter" type="button" class="btn border btn-light w-100">ENTER</button>
+    <div class="btn-group btn-block">
+        <button id="calc_next" type="button" class="btn border btn-light w-100">next</button>
         <button type="button" class="tenkey btn border btn-light w-100" value="0">0</button>
-        <button id="calc_reset" type="button" class="btn border btn-light w-100">RESET</button>
+        <button id="calc_reset" type="button" class="btn border btn-light w-100">reset</button>
     </div>
+    <button id="calc_enter" class="py-3 btn border btn-light">enter</button>
 </div>

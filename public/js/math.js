@@ -1,7 +1,5 @@
 $(function() {
-    const calc1_cont = $('#calc1_cont');
-    const calc1_siki = $('#calc1 .siki')[0];
-    const calc2_siki = $('#calc2 .siki')[0];
+    const calc1_num = $('#calc1_contentarea .num');
     const calc1_ans = $('#calc1 .ans')[0];
     const calc2_ans = $('#calc2 .ans')[0];
     const calc1_tenkey = $('#calc1 .tenkey');
@@ -19,7 +17,7 @@ $(function() {
     });
 
     calc_enter.on('click',function(){
-        calc1_ans.innerText = "pushed enter";
+        console.log(calc1_ans.innerText);
     });
     calc_reset.on('click',function() {
         calc1_ans.innerText = "";
