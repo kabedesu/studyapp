@@ -10,17 +10,26 @@ $(function() {
     calc1_tenkey.on('click',function(){
         if(calc1_ans.innerText == 0) {
             calc1_ans.innerText = "";
-        } 
+        }
         if(Array.from(calc1_ans.innerText).length < 8) {
-            calc1_ans.innerText += $(this).val(); 
+            calc1_ans.innerText += $(this).val();
         }
     });
 
     calc_enter.on('click',function(){
-        console.log(calc1_ans.innerText);
+        const ans = Number(calc1_num[0].innerText) + Number(calc1_num[1].innerText);
+        const input = Number(calc1_ans.innerText);
+        calc1_ans.innerText = hantei(ans,input);
     });
     calc_reset.on('click',function() {
         calc1_ans.innerText = "";
     });
 });
 
+function hantei(ans,input) {
+    if(ans !== input) {
+        return "X";
+    } else {
+        return "O";
+    }
+}
